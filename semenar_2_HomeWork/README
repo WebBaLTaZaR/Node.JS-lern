@@ -1,0 +1,9 @@
+Эта библиотека предоставляет функции для генерации случайных данных, таких как числа, строки и даты.
+## Установка
+npm install random-data-generator
+## Использование
+const randomData = require('random-data-generator');
+console.log(randomData.getRandomInt(1, 100)); / Случайное целое число от 1 до 100
+console.log(randomData.getRandomFloat(1, 100)); / Случайное число с плавающей точкой от 1 до 100
+console.log(randomData.getRandomString(10)); / Случайная строка длиной 10 символов
+console.log(randomData.getRandomDate(new Date(2020, 0, 1), new Date())); / Случайная дата от 1 января 2020 года до текущего дня
